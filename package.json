@@ -1,6 +1,6 @@
 {
   "name": "postcss-modular-scale-plus",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin that calculates modular scale in a unit agnostic manner and supports cases where the input to the `ms()` function contains values calculated at compile time.",
   "keywords": [
     "postcss",
@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/F21/postcss-modular-scale-plus",
   "dependencies": {
+    "modular-scale": "^4.4.1",
     "postcss": "^5.0.16",
     "reduce-function-call": "^1.0.1"
   },
@@ -28,8 +29,9 @@
     "postcss-calc": "^5.2.0"
   },
   "scripts": {
+    "eslint": "eslint *.js",
     "mocha": "mocha",
-    "test": "mocha"
+    "test": "mocha && eslint *.js"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss/es5"
