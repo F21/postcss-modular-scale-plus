@@ -16,7 +16,6 @@
   },
   "homepage": "https://github.com/F21/postcss-modular-scale-plus",
   "dependencies": {
-    "modular-scale": "^4.4.1",
     "postcss": "^5.0.16",
     "reduce-function-call": "^1.0.1"
   },
@@ -29,9 +28,8 @@
     "postcss-calc": "^5.2.0"
   },
   "scripts": {
-    "eslint": "eslint *.js",
     "mocha": "mocha",
-    "test": "mocha && eslint *.js"
+    "test": "mocha"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss/es5"
