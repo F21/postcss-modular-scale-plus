@@ -1,6 +1,6 @@
 {
   "name": "postcss-modular-scale-plus",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "PostCSS plugin that calculates modular scale in a unit agnostic manner and supports cases where the input to the `ms()` function contains values calculated at compile time.",
   "keywords": [
     "postcss",
